@@ -1,0 +1,55 @@
+*{
+    font-family: Cambria;
+}
+:root{
+    --blue: #829EB9;
+    --baby_blue: #B3C6D9;
+    --white: #E0E9F1;
+}
+.lewo{
+    background-color: var(--baby_blue);
+    height: 700px;
+    width: 25%;
+    padding-top: 10px;
+}
+.srodek{
+    height: 700px;
+    width: 50%;
+    padding-top: 10px;
+    background-color: var(--white);
+    justify-items: center;
+}
+.gora{
+    background-color: var(--blue);
+    justify-items: center;
+    color: var(--white);
+    padding: 10px;
+}
+.foot{
+    background-color: var(--blue);
+    justify-items: center;
+    color: var(--white);
+    padding: 10px;
+}
+.prawo{
+    background-color: var(--baby_blue);
+    height: 700px;
+    width: 25%;
+    padding-top: 10px;
+}
+.obraz{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+}
+table{
+    border: 1px solid gray;
+
+}
+td , th{
+    border: 1px solid gray;
+}
