@@ -3,30 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sekretariat</title>
-    <link rel="stylesheet" href="styl1.css">
+    <title>Piekarnia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section class="lewo">
-            <h1>Akta pracownicze</h1>
-            <h3>Dane</h3>
-            <p>Anna Nowak</p>
-            <hr>
-            <h3>Adres</h3>
-            <p>ul.Piekarska 6</p>
-            <p>Bytom</p>
-            <hr>
-            <p>RODO: podpisane</p>
-            <p>Badania aktualne</p>
-            <hr>
-            <h3>Dokumenty pracownika</h3>
-            <a href="cv.txt" target="_blank">Pobierz</a>
-            <img src="2.jpg" alt="kobita" class="obraz">
-            <h1 class="Anna">Anna Nowak</h1>
-            
-        </section>
-    </main>
+    <nav>
+    <a href="">KWERENDA1</a>
+    <a href="">KWERENDA2</a>
+    <a href="">KWERENDA3</a>
+    <a href="">KWERENDA4</a>
+    </nav>
+    <img src="wypieki.png" alt="" class="obrazek">
+    <header class="leb">
+        <h1>Witamy</h1>
+        <h2>Na stronie piekarni</h2>
+        <p>
+            Od 31 lat oferujemy najwyższej jakości pieczywo. Naturalnie świeże, naturalnie smaczne.
+            Pieczemy wyłącznie wypieki na naturalnym zakwasie bez polepszaczy i zagęstników. 
+            Korzystamy wyłącznie z najlepszych ziaren pochodzących z ekologicznych upraw położonych w rejonach zgierskim i ozorkowskim.
+        </p>
+    </header>
+    <main class="glowna">
+    <label for="pieczywo"><h4>Wybierz rodzaj wypieków</h4></label>
+    <form action="">
+        <select name="pieczywo" id="pieczywo">
+        <option value="">Wybierz cukiernicze i ciastkarski</option>
+        <option value="Inne">Inne</option>
+        <option value="napoleonka">Pieczywo pszenne</option>
+        <option value="chleb z cukrem">Pieczywo żytne</option>
+        <option value="Drożdzówki">Drożdzówki</option>
+        <option value="Pieczywo mieszane">Pieczywo mieszane</option>
+    </select>
+    <button class="guzik">Wybierz</button>
+    </form>
+    <table class="tabela">
+        <tr>
+            <th>Rodzaj</th>
+            <th>Nazwa</th>
+            <th>Gramatura</th>
+            <th>Cena</th>
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb baltonowski</td>
+            <td>0,6</td>
+            <td>3,45</td>
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb duży wiejski</td>
+            <td>1</td>
+            <td>5,05</td>
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb baltonowski krojony</td>
+            <td>0,6</td>
+            <td>3,45</td>
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb z soją i z słonecznikiem</td>
+            <td>0,5</td>
+            <td>3,05</td>
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb wieloziarnisty "Słońce"</td>
+            <td>0,4</td>
+            <td>2,65</td>            
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb razowy 4 ziarna</td>
+            <td>0,5</td>
+            <td>3,05</td>
+        </tr>
+        <tr>
+            <td>Pieczywo mieszane</td>
+            <td>Chleb mieszany 4 ziarna</td>
+            <td>0,6</td>
+            <td>3,45</td>
+        </tr>
+    </table>
+</main>
+    <footer>
+        <p>Autor: Jakub Kramarczuk</p>
+        <p>03.02.2026</p>
+    </footer>
+
+    
     
 </body>
 </html>

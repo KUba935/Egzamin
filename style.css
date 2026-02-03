@@ -1,0 +1,77 @@
+*{
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(teal,aliceblue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.leb{
+    background-color: rgb(160, 82, 45, 0.6);
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.obrazek{
+    width: 98%;
+    height: 240px;
+    display: block;
+    position: fixed;
+    z-index: -1;
+    margin-top: 70px;
+}
+a{
+    font-size: 130%;
+    padding: 30px;
+    color: white;
+}
+.glowna{
+    background-color: sandybrown;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer{
+    background-color: sienna;
+    width: 100%;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.tabela{
+    border-collapse: collapse;
+    border: 1px;
+    margin: auto;
+    width: 70%;
+    background-color: sienna;
+    margin-top: 0;
+}
+td{
+    border: 1px solid sandybrown;
+}
+#pieczywo{
+    margin-top: 20px;
+}
+.guzik{
+    width: 70px;
+    height: 20px;
+}
